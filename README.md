@@ -12,27 +12,31 @@ system's application programming interface (API);
 UNIX operating system.
 
 ----------------
-
+### All These bullet points are interms of programs: 
 1. Creates a file and writes your name in it, taking your name as input from the command line. It should use the system functions creat() and write(). For the synopsis of these functions, consult section 2 of the man pages on your system. Then, adapt the ./mycp program from earlier, to copy your newly created file into another file, without the redirect operators. To to that, you need to pass the source and the target files as command line arguments to your program.
+    * HW_creatNwrite.cpp
+    * HW_Copy_A_File.c
+    * Makefile
+→→
 2. This system program  replaces or inserts a row in a <file> name books.txt here. You can specify your own row number as the row that needs to be replaced. You can supply your own record (for instance, your favorite book and its author). The books.txt file contains book records, each with two fields: a book title field (with no blank spaces in it) and an author field (again, with no blank spaces in it). You should be able to replace the record at the row number specified, with your own.
-Ex Entry: 	Aaron_David     Book_number_06
-Becomes: 	Some__Name    Book_number_00
+&nbsp;&nbsp;Ex: Entry: 	Aaron_David     Book_number_06
+&nbsp;&nbsp; Becomes: 	Some__Name    Book_number_00
+→→
 3. This system program 
-..Illustrates the use of the chown() system call on a file.
-..Displays all the information from the stat structure about a file in a “formatted” table, with the constant names on the left, and their binary values on the right. In particular, the st_mode member of the stat structure, which encodes the file type and the permissions mode, should be broken down into the values of its components, given that each bit has a meaning. List the meanings of each bit of st_mode and its values for your file. Convert into binary using the % operator on the octal value of st_mode, then test against the values obtained by selecting each bit using bitwise operations. 
-There are 16 bits for st_mode (no two leading 0 bits as in the mask examples):
-  1. 1 for set-user-ID
-  2. 1 for set-group-ID
-  3. 1 for the sticky bit
-  4. 4 for the file type
-  5. 9 for access permissions
-3.Homework (Due Tuesday, Feb-23-2016):
-Copy, adapt, and compile the program that traverses a file hierarchy from Chapter 4, Files and Directories. Taking as input a starting pathname, the program descends the file hierarchy from that point, and returns how many files of each of the seven types there are, and what percentage of the total that represents. (You will need to (re)visit Chapter 2, UNIX Standardizations and Implementations, and create a *.c and a *.h file for path_alloc().)
+    1. Illustrates the use of the chown() system call on a file.
+    2. Displays all the information from the stat structure about a file in a “formatted” table, with the constant names on the left, and their binary values on the right. In particular, the st_mode member of the stat structure, which encodes the file type and the permissions mode, should be broken down into the values of its components, given that each bit has a meaning. List the meanings of each bit of st_mode and its values for your file. Convert into binary using the % operator on the octal value of st_mode, then test against the values obtained by selecting each bit using bitwise operations. 
+    3. There are 16 bits for st_mode (no two leading 0 bits as in the mask examples):
+        1. 1 for set-user-ID
+        2. 1 for set-group-ID
+        3. 1 for the sticky bit
+        4. 4 for the file type
+        5. 9 for access permissions
+4. Copy, adapt, and compile the program that traverses a file hierarchy from Chapter 4, Files and Directories. Taking as input a starting pathname, the program descends the file hierarchy from that point, and returns how many files of each of the seven types there are, and what percentage of the total that represents. (You will need to (re)visit Chapter 2, UNIX Standardizations and Implementations, and create a *.c and a *.h file for path_alloc().)
 4. Write a cron job that appends the current date and time into a temporary file. The output should be in a formatted table.
 5. PROGRAM5.c
-..Write a program that finds all users on a system. You should test for a large
+    1. Write a program that finds all users on a system. You should test for a large
 number of UID numbers, since no function returns that information wholesale.
-..Modify the program that returns supplementary GIDs for a user to also list
+    2. Modify the program that returns supplementary GIDs for a user to also list
 these groups’ names
 6. Write an example program showing the use of setjmp() and longjmp() across two function calls. You should have two functions, one of which calls the other function. Add and set a string array variable for each function, changing its value. Write a function that prints the string array from within each function. Show what happens to the array upon return from the longjmp().
 7. Add functionality to this program to print the error messages associated with the
