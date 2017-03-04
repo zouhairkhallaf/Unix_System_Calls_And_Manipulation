@@ -21,11 +21,11 @@ Becomes: 	Some__Name    Book_number_00
 ..Illustrates the use of the chown() system call on a file.
 ..Displays all the information from the stat structure about a file in a “formatted” table, with the constant names on the left, and their binary values on the right. In particular, the st_mode member of the stat structure, which encodes the file type and the permissions mode, should be broken down into the values of its components, given that each bit has a meaning. List the meanings of each bit of st_mode and its values for your file. Convert into binary using the % operator on the octal value of st_mode, then test against the values obtained by selecting each bit using bitwise operations. 
 There are 16 bits for st_mode (no two leading 0 bits as in the mask examples):
-...1 for set-user-ID
-...1 for set-group-ID
-...1 for the sticky bit
-...4 for the file type
-...9 for access permissions
+  1. 1 for set-user-ID
+  2. 1 for set-group-ID
+  3. 1 for the sticky bit
+  4. 4 for the file type
+  5. 9 for access permissions
 3.Homework (Due Tuesday, Feb-23-2016):
 Copy, adapt, and compile the program that traverses a file hierarchy from Chapter 4, Files and Directories. Taking as input a starting pathname, the program descends the file hierarchy from that point, and returns how many files of each of the seven types there are, and what percentage of the total that represents. (You will need to (re)visit Chapter 2, UNIX Standardizations and Implementations, and create a *.c and a *.h file for path_alloc().)
 4. Write a cron job that appends the current date and time into a temporary file. The output should be in a formatted table.
