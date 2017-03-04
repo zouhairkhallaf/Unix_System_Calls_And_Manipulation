@@ -14,14 +14,13 @@ UNIX operating system.
 ----------------
 ### All These bullet points are interms of programs: 
 1. Creates a file and writes your name in it, taking your name as input from the command line. It should use the system functions creat() and write(). For the synopsis of these functions, consult section 2 of the man pages on your system. Then, adapt the ./mycp program from earlier, to copy your newly created file into another file, without the redirect operators. To to that, you need to pass the source and the target files as command line arguments to your program.
-    * HW_creatNwrite.cpp
-    * HW_Copy_A_File.c
-    * Makefile
-→→
+    * _HW_creatNwrite.cpp_
+    * **HW_Copy_A_File.c**
+    * **Makefile**
 2. This system program  replaces or inserts a row in a <file> name books.txt here. You can specify your own row number as the row that needs to be replaced. You can supply your own record (for instance, your favorite book and its author). The books.txt file contains book records, each with two fields: a book title field (with no blank spaces in it) and an author field (again, with no blank spaces in it). You should be able to replace the record at the row number specified, with your own.
 &nbsp;&nbsp;Ex: Entry: 	Aaron_David     Book_number_06
 &nbsp;&nbsp; Becomes: 	Some__Name    Book_number_00
-→→
+
 3. This system program 
     1. Illustrates the use of the chown() system call on a file.
     2. Displays all the information from the stat structure about a file in a “formatted” table, with the constant names on the left, and their binary values on the right. In particular, the st_mode member of the stat structure, which encodes the file type and the permissions mode, should be broken down into the values of its components, given that each bit has a meaning. List the meanings of each bit of st_mode and its values for your file. Convert into binary using the % operator on the octal value of st_mode, then test against the values obtained by selecting each bit using bitwise operations. 
