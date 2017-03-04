@@ -12,8 +12,8 @@ An introduction to the key components of the UNIX application programming interf
 ----------------
 ##PROGRAMS
 1. Creates a file and writes your name in it, taking your name as input from the command line. It should use the system functions creat() and write(). For the synopsis of these functions, consult section 2 of the man pages on your system. Then, adapt the ./mycp program from earlier, to copy your newly created file into another file, without the redirect operators. To to that, you need to pass the source and the target files as command line arguments to your program.
-    * **CHECK THE FOLLOWING PROGRAMS**
-    * __HW_creatNwrite.cpp__
+    * **Please check the following programs**
+    * _HW_creatNwrite.cpp_
     * _HW_Copy_A_File.c_
     * _Makefile_
 2. This system program  replaces or inserts a row in a <file> name books.txt here. You can specify your own row number as the row that needs to be replaced. You can supply your own record (for instance, your favorite book and its author). The books.txt file contains book records, each with two fields: a book title field (with no blank spaces in it) and an author field (again, with no blank spaces in it). You should be able to replace the record at the row number specified, with your own.
