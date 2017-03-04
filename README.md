@@ -8,11 +8,12 @@ An introduction to the key components of the UNIX application programming interf
     4. To examine the most important parts of the UNIX operating system's application programming interface (API).
     5. To examine the command level view of UNIX. 
     6. To expose the internal structure of the UNIX operating system.
+    **All The programs are written by** 
+    **All resources are in the lectures folder**
+    **All lectures are from Hunter College CSci 493.66 Unix Tools Class**
 
-## All The programs are written by 
-## All resources are in the lectures folder
-## All lectures are from Hunter College CSci 493.66 Unix Tools Class
 ----------------
+
 ##PROGRAMS
 1. Creates a file and writes a name in of your choice in it, taking your name as input from the command line. It should use the system functions creat() and write(). For the synopsis of these functions, consult section 2 of the man pages on your system. Then, adapt the ./mycp (Check the PDF Lecture 1) program from earlier, to copy your newly created file into another file, without the redirect operators. To to that, you need to pass the source and the target files as command line arguments to your program.<br>
 * **Please check the following programs**
