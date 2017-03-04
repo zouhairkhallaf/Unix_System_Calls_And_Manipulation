@@ -8,6 +8,7 @@ An introduction to the key components of the UNIX application programming interf
     4. To examine the most important parts of the UNIX operating system's application programming interface (API).
     5. To examine the command level view of UNIX. 
     6. To expose the internal structure of the UNIX operating system.
+
     **All The programs are written by** 
     **All resources are in the lectures folder**
     **All lectures are from Hunter College CSci 493.66 Unix Tools Class**
