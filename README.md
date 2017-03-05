@@ -63,15 +63,15 @@ Illustrates the use of the chown() system call on a file. It also Displays all t
 
 There are 16 bits for st\_mode (no two leading 0 bits as in the mask examples)
 
-1 for set-user-ID
+- 1 for set-user-ID
 
-1 for set-group-ID
+- 1 for set-group-ID
 
-1 for the sticky bit
+- 1 for the sticky bit
 
-4 for the file type
+- 4 for the file type
 
-9 for access permissions
+- 9 for access permissions
 
 **Please check the folder_3 it contains the folowing programs:**
 
