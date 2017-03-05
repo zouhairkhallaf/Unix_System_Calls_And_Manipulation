@@ -13,9 +13,8 @@ An introduction to the key components of the UNIX application programming interf
 #####All resources are in the lectures folder
 #####All lectures are from Hunter College CSci 493.66 Unix Tools Class
 
-----------------
-
 ##Programs
+
 ### Program 1
 
 Create a file and write sentence of your choice in it, taking your name for example as input from the command line. It use the system functions creat() and write(). For the synopsis of these functions, consult section 2 of the man pages on your system. I adapt the ./mycp (Check Lecture 1) program. The source and the target files are passed as command line arguments to your program.
@@ -42,13 +41,15 @@ Create a file and write sentence of your choice in it, taking your name for exam
 
 This system program replaces or inserts a row in a file. We name our file "books.txt". You can specify your own row number as the row that needs to be replaced. You can supply your own record (for instance, your favorite book and its author). The "books.txt" file contains book records, each with two fields a _book title field_ (with no blank spaces in it) and an _author field_ (again, with no blank spaces in it). You should be able to replace the record at the row number specified, with your own.
 
-######Output compare the row before andf after you make the change.
+######Please Check the row number you want to change in books.txt before and after the change.
 
 **Please check the folder_2 it contains the folowing programs:**
 
-**1. HW-creatNwrite.cpp**
+**1. Zouhair_Khallaf_HW_2.cpp**
 
-**2. Lecture 2.pdf**
+**2. books.txt
+
+**3. Lecture 2.pdf**
 
 >To run:
 
@@ -58,8 +59,8 @@ This system program replaces or inserts a row in a file. We name our file "books
 
 ### Program 3
 
-Illustrates the use of the chown() system call on a file. It also Displays all the information from the stat structure about a file in a “formatted” table, with the constant names on the left, and their binary values on the right. In particular, the st\_mode member of the stat structure, which encodes the file type and the permissions mode, should be broken down into the values of its components, given that each bit has a meaning. List the meanings of each bit of st_mode and its values for your file. Convert into binary using the % operator on the octal value of st_mode, then test against the values obtained by selecting each bit using bitwise operations. 
-3. There are 16 bits for st_mode (no two leading 0 bits as in the mask examples):
+Illustrates the use of the chown() system call on a file. It also Displays all the information from the stat structure about a file in a “formatted” table, with the constant names on the left, and their binary values on the right. In particular, the st\_mode member of the stat structure, which encodes the file type and the permissions mode, should be broken down into the values of its components, given that each bit has a meaning. List the meanings of each bit of st\_mode and its values for your file. Convert into binary using the % operator on the octal value of st\_mode, then test against the values obtained by selecting each bit using bitwise operations. 
+3. There are 16 bits for st\_mode (no two leading 0 bits as in the mask examples):
 1. 1 for set-user-ID
 2. 1 for set-group-ID
 3. 1 for the sticky bit
@@ -68,7 +69,15 @@ Illustrates the use of the chown() system call on a file. It also Displays all t
 
 **Please check the folder_3 it contains the folowing programs:**
 
-**1. HW-creatNwrite.cpp**
+**1. Zouhair_Khallaf_HW_3_PART_I_chown.c**
+
+**2. Lecture 3.pdf**
+
+**3. Lecture 4.pdf**
+
+**4. README.txt** _Contains all instructions MUST READ_ 
+
+### Program 4
 
 4. Copy, adapt, and compile the program that traverses a file hierarchy from Chapter 4, Files and Directories. Taking as input a starting pathname, the program descends the file hierarchy from that point, and returns how many files of each of the seven types there are, and what percentage of the total that represents. (You will need to (re)visit Chapter 2, UNIX Standardizations and Implementations, and create a *.c and a *.h file for path_alloc().)
 
