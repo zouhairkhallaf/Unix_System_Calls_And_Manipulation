@@ -18,9 +18,9 @@ An introduction to the key components of the UNIX application programming interf
 ##Programs
 ### Program 1
 
-Creates a file and writes a name in of your choice in it, taking your name as input from the command line. It should use the system functions creat() and write(). For the synopsis of these functions, consult section 2 of the man pages on your system. Then, adapt the ./mycp (Check the PDF Lecture 1) program from earlier, to copy your newly created file into another file, without the redirect operators. To to that, you need to pass the source and the target files as command line arguments to your program.
+Creates a file and writes a name in of your choice in it, taking your name as input from the command line. It should use the system functions creat() and write(). For the synopsis of these functions, consult section 2 of the man pages on your system. Then, adapt the ./mycp (Check Lecture 1) program from earlier, to copy your newly created file into another file, without the redirect operators. To to that, you need to pass the source and the target files as command line arguments to your program.
 
-**Please check the following programs:**
+**Please check the folder_1 it contains the folowing programs:**
 
 **1. HW\_creatNwrite.cpp**
 
@@ -36,7 +36,7 @@ This system program replaces or inserts a row in a file. We name our file "books
 ######Change :  Aaron\_David Book-number-06
 ######To........ :  New\__Name Book-number-XX
 
-**Please check the following programs:**
+**Please check the folder_2 it contains the folowing programs:**
 
 **1. HW-creatNwrite.cpp**
 
@@ -50,19 +50,19 @@ Illustrates the use of the chown() system call on a file. It also Displays all t
 4. 4 for the file type
 5. 9 for access permissions
 
-**Please check the following programs:**   
+**Please check the folder_3 it contains the folowing programs:**
 
 **1. HW-creatNwrite.cpp**
 
 4. Copy, adapt, and compile the program that traverses a file hierarchy from Chapter 4, Files and Directories. Taking as input a starting pathname, the program descends the file hierarchy from that point, and returns how many files of each of the seven types there are, and what percentage of the total that represents. (You will need to (re)visit Chapter 2, UNIX Standardizations and Implementations, and create a *.c and a *.h file for path_alloc().)
 
-**Please check the following programs:**
+**Please check the folder_4 it contains the folowing programs:**
 
 **1. HW-creatNwrite.cpp**
 
 5. Write a cron job that appends the current date and time into a temporary file. The output should be in a formatted table.
 
-**Please check the following programs:**
+**Please check the folder_5 it contains the folowing programs:**
 
 **1. HW-creatNwrite.cpp**
 
@@ -72,13 +72,13 @@ number of UID numbers, since no function returns that information wholesale.
 2. Modify the program that returns supplementary GIDs for a user to also list
 these groups’ names
 
-**Please check the following programs:**
+**Please check the folder_6 it contains the folowing programs:**
 
 **1. HW-creatNwrite.cpp**
 
 7. Write an example program showing the use of setjmp() and longjmp() across two function calls. You should have two functions, one of which calls the other function. Add and set a string array variable for each function, changing its value. Write a function that prints the string array from within each function. Show what happens to the array upon return from the longjmp().
 
-**Please check the following programs:**
+**Please check the folder_7 it contains the folowing programs:**
 
 **1. HW-creatNwrite.cpp**
 
@@ -87,24 +87,24 @@ numeric termination status values from <signal.h>. Also add functionality to
 print the values of the members of struct rusage, which will get filled in by
 calling wait3(). Check these entries with man 2.
 
-**Please check the following programs:**
+**Please check the folder_8 it contains the folowing programs:**
 
 **1. HW-creatNwrite.cpp**
 
 9. Write a simple program showing the system call sigsuspend(). Your program should initialize three sets of signals (oldset, newset, waitset) to the empty set, using sigemptyset(). It should then add a few signals to this set, using sigaddset(). It should contain a signal handler, which you can design to be shared across the few signals you have added to your set. You should then specify a set of blocked signals, using sigprocmask(). The signals you want triggered and handled, you should set, and establish handler(s) for, using either signal() or sigaction(). Then, you want the signals in the blocked mask to suspend until the signals from the wait mask are triggered and return from their handler, using sigsuspend(). After the signals in the wait mask have been delivered and handled, unblock the suspended signals using sigprocmask() again. Insert printouts of every point in your program where you can show the signal sets, where the signals are raised, and where the suspended signals get unblocked.
 
-**Please check the following programs:**
+**Please check the folder_9 it contains the folowing programs:**
 
 **1. HW-creatNwrite.cpp**
 
 10. ls -al   
 
-**Please check the following programs:**
+**Please check the folder_10 it contains the folowing programs:**
 
 **1. HW-creatNwrite.cpp**
 
 11. WRITE YOU OWN SHELL :  My-Shell
 
-**Please check the following programs:**
+**Please check the folder_11 it contains the folowing programs:**
 
 **1. HW-creatNwrite.cpp**
