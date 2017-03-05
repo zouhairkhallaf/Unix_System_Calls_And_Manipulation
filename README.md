@@ -28,6 +28,8 @@ Create a file and write sentence of your choice in it, taking your name for exam
 
 **3. Makefile**
 
+**4. Lecture 1.pdf
+
 >To run:
 
 >$ make all
