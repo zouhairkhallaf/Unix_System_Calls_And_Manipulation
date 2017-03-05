@@ -189,6 +189,21 @@ Write a program using multiple semaphores in a semaphore set, and using semaphor
 
 ### Program and Make your own ls-al command.
 
+Write your own "ls" command  Use the following logic.
+Use info from the stat structure to display the same file info that you would see when you type: "ls–al" @ the command line.
+
 ### program and make your own terminla like Shell.
+
+Write your own shell. Your shell must be able to do the following:
+
+- 1. Provide a prompt and listen for input
+
+- 2. Accept a command and run it 
+
+- 3. Still “be around” when that command has finished  
+
+- 4. Accept interrupt signal for a running program 
+
+
 
 
