@@ -28,7 +28,7 @@ Create a file and write sentence of your choice in it, taking your name for exam
 
 **3. Makefile**
 
-**4. Lecture 1.pdf
+**4. Lecture 1.pdf**
 
 >To run:
 
@@ -42,13 +42,19 @@ Create a file and write sentence of your choice in it, taking your name for exam
 
 This system program replaces or inserts a row in a file. We name our file "books.txt". You can specify your own row number as the row that needs to be replaced. You can supply your own record (for instance, your favorite book and its author). The "books.txt" file contains book records, each with two fields a _book title field_ (with no blank spaces in it) and an _author field_ (again, with no blank spaces in it). You should be able to replace the record at the row number specified, with your own.
 
-######Example: 
-######Change :  Aaron\_David Book-number-06
-######To........ :  New\__Name Book-number-XX
+######Output compare the row before andf after you make the change.
 
 **Please check the folder_2 it contains the folowing programs:**
 
 **1. HW-creatNwrite.cpp**
+
+**2. Lecture 2.pdf**
+
+>To run:
+
+>$ make all
+
+>$ ./Zouhair_Khallaf_HW_2
 
 ### Program 3
 
