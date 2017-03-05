@@ -23,9 +23,7 @@ Creates a file and writes a name in of your choice in it, taking your name as in
 **Please check the following programs:**
 
 **1. HW\_creatNwrite.cpp**
-
 **2. HW\_Copy\_A\_File.c**
-
 **3. Makefile**
 
 ### Program 2
@@ -37,7 +35,6 @@ This system program replaces or inserts a row in a file. We name our file "books
 ######To........ :  New\__Name Book-number-XX
 
 **Please check the following programs:**
-
 **1. HW-creatNwrite.cpp**
 
 ### Program 3
@@ -56,7 +53,6 @@ Illustrates the use of the chown() system call on a file. It also Displays all t
 4. Copy, adapt, and compile the program that traverses a file hierarchy from Chapter 4, Files and Directories. Taking as input a starting pathname, the program descends the file hierarchy from that point, and returns how many files of each of the seven types there are, and what percentage of the total that represents. (You will need to (re)visit Chapter 2, UNIX Standardizations and Implementations, and create a *.c and a *.h file for path_alloc().)
 
 **Please check the following programs:**
-
 **1. HW-creatNwrite.cpp**
 
 5. Write a cron job that appends the current date and time into a temporary file. The output should be in a formatted table.
