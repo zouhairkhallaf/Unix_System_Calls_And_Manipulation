@@ -18,7 +18,7 @@ An introduction to the key components of the UNIX application programming interf
 ##Programs
 ### Program 1
 
-Creates a file and writes a name in of your choice in it, taking your name as input from the command line. It should use the system functions creat() and write(). For the synopsis of these functions, consult section 2 of the man pages on your system. Then, adapt the ./mycp (Check Lecture 1) program from earlier, to copy your newly created file into another file, without the redirect operators. To to that, you need to pass the source and the target files as command line arguments to your program.
+Create a file and write sentence of your choice in it, taking your name for example as input from the command line. It use the system functions creat() and write(). For the synopsis of these functions, consult section 2 of the man pages on your system. I adapt the ./mycp (Check Lecture 1) program. The source and the target files are passed as command line arguments to your program.
 
 **Please check the folder_1 it contains the folowing programs:**
 
@@ -27,6 +27,12 @@ Creates a file and writes a name in of your choice in it, taking your name as in
 **2. HW\_Copy\_A\_File.c**
 
 **3. Makefile**
+
+>To run:
+
+>$ make all
+
+>$ ./HW_creatNwrite fileName.txt yourMessage
 
 ### Program 2
 
