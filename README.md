@@ -13,7 +13,7 @@ An introduction to the key components of the UNIX application programming interf
 
 ##Programs
 
-### 1. Introduction (Check Lecture 1)
+### 01. Introduction (Check Lecture 1)
 
 Write a small system program that creates a file and writes your name in it,
 taking your name as input from the command line. It should use the system
@@ -39,7 +39,7 @@ command line arguments to your program.
 
 >$ ./HW_Copy_A_File copyThis.txt InThis.txt
 
-### 2. File I/O (Check Lecture 2 and 3)
+### 02. File I/O (Check Lecture 2 and 3)
 
 Write a C program that replaces or inserts a row in the books.txt file. You can specify your own row number as the row that needs to be replaced. You can supply your own record (for instance, your favorite book and its author). The books.txt file contains book records, each with two fields: a book title field (with no blank spaces in it) and an author field (again, with no blank spaces in it). You should be able to replace the record at the row number specified, with your own.
 
@@ -57,7 +57,7 @@ Write a C program that replaces or inserts a row in the books.txt file. You can 
 
 >$ ./Zouhair_Khallaf_HW_2
 
-### 3. Files and Directories I (Check Lecture 4)
+### 03. Files and Directories I (Check Lecture 4)
 
 Write a small program that illustrates the use of the chown() system call on a file. Write another program that displays all the information from the stat structure about a file in a “formatted” table, with the constant names on the left, and their binary values on the right. In particular, the st_mode member of the stat structure, which encodes the file type and the permissions mode, should be broken down into the values of its components, given that each bit has a meaning. List the meanings of each bit of st_mode and its values for your file. Convert into binary using the % operator on the octal value of st_mode, then test against the values obtained by selecting each bit using bitwise operations.
 
@@ -95,7 +95,7 @@ There are 16 bits for st\_mode (no two leading 0 bits as in the mask examples)
 
 - shows_all_file_attributes_TESTED.c
 
-### 4. Files and Directories II (Check Lecture 5)
+### 04. Files and Directories II (Check Lecture 5)
  
 Copy, adapt, and compile the program that traverses a file hierarchy from Chapter 4, Files and Directories. Taking as input a starting pathname, the program descends the file hierarchy from that point, and returns how many files of each of the seven types there are, and what percentage of the total that represents. (You will need to (re)visit Chapter 2, UNIX Standardizations and Implementations, and create a *.c and a *.h file for path_alloc().)
 
@@ -128,7 +128,7 @@ Copy, adapt, and compile the program that traverses a file hierarchy from Chapte
 - unlink.c
 
 
-### 5. Standard I/O Library (Check Lecture 6 and 7)
+### 05. Standard I/O Library (Check Lecture 6 and 7)
 
 Write a cron job that appends the current date and time into a temporary file. The output should be in a formatted table.
 
@@ -137,7 +137,7 @@ Write a cron job that appends the current date and time into a temporary file. T
 **1. HW-creatNwrite.cpp**
 
 
-### 6. System Data Files (Check Lecture 8)
+### 06. System Data Files (Check Lecture 8)
 
 First Write a program that finds all users on a system. You should test for a large number of UID numbers, since no function returns that information wholesale. Second Modify the program that returns supplementary GIDs for a user to also list these groups’ names
 
@@ -146,7 +146,7 @@ First Write a program that finds all users on a system. You should test for a la
 **1. HW-creatNwrite.cpp**
 
 
-### 7. Process Environment (Check Lecture 9)
+### 07. Process Environment (Check Lecture 9)
 
 Write an example program showing the use of setjmp() and longjmp() across two function calls. You should have two functions, one of which calls the other function. Add and set a string array variable for each function, changing its value. Write a function that prints the string array from within each function. Show what happens to the array upon return from the longjmp().
 
@@ -154,7 +154,7 @@ Write an example program showing the use of setjmp() and longjmp() across two fu
 
 **1. HW-creatNwrite.cpp**
 
-### 8. Process Control I (Check Lecture 10 and 11)
+### 08. Process Control I (Check Lecture 10 and 11)
 
 Add functionality to this program to print the error messages associated with the numeric termination status values from <signal.h>. Also add functionality to print the values of the members of struct rusage, which will get filled in by calling wait3(). Check these entries with man 2.
 
@@ -162,7 +162,7 @@ Add functionality to this program to print the error messages associated with th
 
 **1. HW-creatNwrite.cpp**
 
-### 9. Process Relationships (Check Lecture 12 and 13)
+### 09. Process Relationships (Check Lecture 12 and 13)
 
 ### 10. Signals (Check Lecture 14)
 
@@ -173,36 +173,36 @@ Write a simple program showing the system call sigsuspend(). Your program should
 **1. HW-creatNwrite.cpp**
 
 
-### Threads (Check Lecture 15)
+### 11. Threads (Check Lecture 15)
 
-### Threads Synchronization (Check Lecture 16)
+### 12. Threads Synchronization (Check Lecture 16)
 
-### Threads Attributes (Check Lecture 17 and 18)
+### 13. Threads Attributes (Check Lecture 17 and 18)
 
-### Interprocess Communication (Check Lecture 19)
+### 14. Interprocess Communication (Check Lecture 19)
 
-### Semaphores (Check Lecture 20)
+### 15. Semaphores (Check Lecture 20)
 
 Write a program using multiple semaphores in a semaphore set, and using semaphore values greater than 1. Have your program access a file for reading/writing as your shared resource.
 
-### Network IPC: Sockets (Check Lecture 21)
+### 16. Network IPC: Sockets (Check Lecture 21)
 
-### Program and Make your own ls-al command.
+### 17. My ls-al (Terminal list all command)
 
 Write your own "ls" command  Use the following logic.
 Use info from the stat structure to display the same file info that you would see when you type: "ls–al" @ the command line.
 
-### program and make your own terminla like Shell.
+### 18. My-Shell (Terminal like shell)
 
 Write your own shell. Your shell must be able to do the following:
 
-- 1. Provide a prompt and listen for input
+- Provide a prompt and listen for input
 
-- 2. Accept a command and run it 
+- Accept a command and run it 
 
-- 3. Still “be around” when that command has finished  
+- Still “be around” when that command has finished  
 
-- 4. Accept interrupt signal for a running program 
+- Accept interrupt signal for a running program 
 
 
 
