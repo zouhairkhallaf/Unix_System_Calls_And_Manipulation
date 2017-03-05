@@ -24,9 +24,9 @@ Creates a file and writes a name in of your choice in it, taking your name as in
 
 **1. HW\_creatNwrite.cpp**
 
-** 2. HW\_Copy\_A\_File.c**
+**2. HW\_Copy\_A\_File.c**
 
-** 3. Makefile**
+**3. Makefile**
 
 ### Program 2
 
