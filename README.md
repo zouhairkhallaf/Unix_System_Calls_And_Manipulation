@@ -83,7 +83,17 @@ There are 16 bits for st\_mode (no two leading 0 bits as in the mask examples)
 
 **4. README.txt** _Contains all instructions MUST READ_ 
 
-**5. TESTED file contains tested components: access_TESTED.c | chmod_TESTED.c | List_of_octal_permisions_TESTED.c | lstat_TESTED.c | shows_all_file_attributes_TESTED.c**
+**5. TESTED file contains tested components:**
+
+- access_TESTED.c
+
+- chmod_TESTED.c
+
+- List_of_octal_permisions_TESTED.c
+
+- lstat_TESTED.c
+
+- shows_all_file_attributes_TESTED.c
 
 ### Program 4
 
