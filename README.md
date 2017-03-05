@@ -101,8 +101,34 @@ Copy, adapt, and compile the program that traverses a file hierarchy from Chapte
 
 **Please check the folder_4 it contains the folowing programs:**
 
-**1. HW-creatNwrite.cpp**
+**1.Zouhair_Khallaf_HW_3.c**
 
+**2. apue.h
+
+**3. dynamic_alloc.h
+
+**4. errors.h
+
+**5. Lecture 5.pdf
+
+**6. TESTED file contains tested components:**
+
+- chdir.c
+
+- link.c
+
+- myspecialdev.c
+
+- myunlink.c
+
+- readlink.c
+
+- timing.c
+
+- unlink.c
+
+
+### Program 5
 5. Write a cron job that appends the current date and time into a temporary file. The output should be in a formatted table.
 
 **Please check the folder_5 it contains the folowing programs:**
