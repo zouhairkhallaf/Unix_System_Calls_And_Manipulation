@@ -83,9 +83,11 @@ There are 16 bits for st\_mode (no two leading 0 bits as in the mask examples)
 
 **4. README.txt** _Contains all instructions MUST READ_ 
 
+**5. TESTED file contains tested components: access_TESTED.c | chmod_TESTED.c | List_of_octal_permisions_TESTED.c | lstat_TESTED.c | shows_all_file_attributes_TESTED.c**
+
 ### Program 4
 
-4. Copy, adapt, and compile the program that traverses a file hierarchy from Chapter 4, Files and Directories. Taking as input a starting pathname, the program descends the file hierarchy from that point, and returns how many files of each of the seven types there are, and what percentage of the total that represents. (You will need to (re)visit Chapter 2, UNIX Standardizations and Implementations, and create a *.c and a *.h file for path_alloc().)
+Copy, adapt, and compile the program that traverses a file hierarchy from Chapter 4, Files and Directories. Taking as input a starting pathname, the program descends the file hierarchy from that point, and returns how many files of each of the seven types there are, and what percentage of the total that represents. (You will need to (re)visit Chapter 2, UNIX Standardizations and Implementations, and create a *.c and a *.h file for path_alloc().)
 
 **Please check the folder_4 it contains the folowing programs:**
 
